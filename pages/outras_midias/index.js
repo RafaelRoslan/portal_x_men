@@ -10,23 +10,24 @@ export default ()=>{
     const template = `
     <div>
         <article>
-            <h1>Lorem Ipsum</h1>
+            <h1>Outras Mídias</h1>
             <section>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vitae et minima suscipit tempora ullam minus repudiandae animi quaerat explicabo consectetur deserunt quidem corporis in distinctio, magni, dicta, accusamus veritatis.</p>
-                <p>At beatae nulla suscipit atque natus in, dolorem minima fuga. Ipsa debitis facere ratione fugit magni vitae, et non consequatur laboriosam nesciunt tempora maxime odit? Optio impedit sed ad atque.</p>
+                <h3>Desenhos</h3>
+                <p>A primeira versão animada dos X-Men, foi na série The Marvel Super Heroes (apelidada no Brasil de Desenhos Desanimados do Marvel), no segmento The Sub-Mariner estrelado por Namor Anjo, Fera, Ciclope,Homem de Gelo,Garota Marvel e Professor-X aparecem no episódio "Dr. Doom's Day", história adaptada da revista Fantastic Four Annual #3 (1965), a Grantray-Lawrence Animation não tinha possuía os direitos do Quarteto Fantástico (que na época estavam com a Hanna Barbera) então, os produtores os substituiram pelos X-Men, que no episódio são chamados de "Aliados da Paz" (Allies for Peace).</p>
+                <p>Em 1992, a Fox Network lançou uma série animada dos X-Men com o elenco contando com: Ciclope, Jean Grey, Fera, Gambit, Jubileu, Professor X, Vampira, Tempestade e Wolverine, com Bishop, Morfo e Cable co-estrelando com frequência. A série foi um sucesso extraordinário, tornando-se um dos desenhos mais vistos na história da televisão e ajudando a aumentar a popularidade dos X-Men. Ela durou cinco temporadas e terminou em 1997. Recentemente voltou a ser apresentada pela Fox, por vários meses após o lançamento do primeiro filme.</p>
+                <p>Em 2004, Warner Brothers Network lançou X-Men: Evolution que mostrou os X-Men como adolescentes frequentando o colegial, além do Instituto Xavier. A série terminou em 2008 após cinco temporadas.</p>
                 <div><img src="" alt="" width="300" height="300"></div>
             </section>
             <section>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sunt nisi, voluptates eum quaerat iste explicabo aperiam nihil est alias voluptatibus natus. Optio impedit nostrum dolor quidem earum commodi in.</p>
-                <p>Voluptatum cumque quisquam qui laborum amet possimus dolore eaque cum officia sit unde accusantium eum, facere incidunt dolorum inventore, fugiat in? Vitae labore obcaecati sequi vero praesentium dolorum cumque officiis?</p>
+                <h3>Jogos Eletrônicos</h3>
+                <p>Há vários jogos de diversas plataformas em que estrelam os X-Men. A maioria deles são jogos de luta em 2D, tais como X-Men:Children of the Atom de 1994, X-Men vs. Street Fighter de 1996 e X-Men: Mutant Academy de 2000. Há também um jogo de luta em 3D chamado X-Men: Next Dimension.</p>
+                <p>Os mais recentes da série são os jogos de RPG, X-Men Legends de 2004 X-Men Legends II: The Rise of Apocalipse de 2005, e X-Men: Destiny de 2011. Os personagens também apareceram na série Marvel vs. Capcom e nos jogos Marvel: Ultimate Alliance e Marvel: Ultimate Alliance 2. Em 2006, acompanhando o terceiro filme, X-men 3 The Last Stand, temos o jogo X-men- The Official Game, tendo como protagonistas, Wolverine, Homem de Gelo e Noturno.</p>
                 <div><img src="" alt="" width="300" height="300"></div>
             </section>
             <section>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore deserunt eius numquam tempora quasi sunt. Cum provident nulla deleniti recusandae iusto alias, laborum iure dolores, numquam repellat harum esse quo?</p>
-                <p>Nisi reiciendis dolor voluptatem dicta temporibus tenetur aperiam dolorem vero aliquid eum, quas neque! Laborum commodi, minima tempora corporis quis inventore totam vitae voluptas, quisquam sapiente itaque esse? In, harum?</p>
+                <h3>Filmes</h3>
+                <p>Poucas franquias foram tão essenciais para a evolução do gênero de filmes de super-heróis como X-Men , que ajudou a inaugurar uma nova era de filmes de quadrinhos.</p>
+                <p>Em 2000, X-Men foi adaptado como uma história sobre a humanidade em primeiro lugar, traçando paralelos com o movimento pelos direitos civis e a luta das minorias em todos os lugares. Essa combinação de drama humano e espetáculo de alto vôo fez X-Men Extremamente popular, gerando uma franquia que até agora abrangeu 13 longas-metragens diversos em tom, elenco e, claro, período de tempo.</p>
                 <div><img src="" alt="" width="300" height="300"></div>
             </section>
         </article>
