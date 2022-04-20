@@ -4,8 +4,9 @@
     * Andeson Silva
     * Rafael Roslan
 
-## Data de Inicio:
-    * 17/04/2022
+## Data de Inicio e Horario :
+    * 17/04/2022 - 12:16
+    * 17/04/2022 - 12:16
 
 ## Tema:
     * X-men
