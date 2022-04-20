@@ -6,7 +6,7 @@ import contato from "../pages/contato/index.js";
 import criticasSociais from "../pages/criticas_sociais/index.js";
 import historia from "../pages/historia/index.js";
 import home from "../pages/home/index.js";
-import normasDeUso from "../pages/normas_de_uso/index.js";
+import termosDeUso from "../pages/termos_de_uso/index.js";
 import novosMutantes from "../pages/novos_mutantes/index.js";
 import origem from "../pages/origem/index.js";
 import outrasMidias from "../pages/outras_midias/index.js";
@@ -32,6 +32,10 @@ const init = ()=>{
             case "#historia":
                 main.appendChild(historia());
                 break;
+
+            case "#origem":
+                    main.appendChild(origem());
+                    break;
 
             case "#personagens":
                 main.appendChild(personagens());

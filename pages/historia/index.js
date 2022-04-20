@@ -19,8 +19,6 @@ export default ()=>{
                 </li>
             </ul>
         </nav>
-        
-        <h2>História</h2>
 
         <aside>
             <div>
@@ -29,10 +27,10 @@ export default ()=>{
         </aside>
         
         <article>
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsa in! Vero mollitia iure modi voluptates placeat nobis sed animi fuga, cum aliquid architecto quo quisquam quod rerum eveniet repellat.</p>
-            <p>Inventore aliquid hic nulla corrupti ratione minima sint voluptatum cumque quisquam in aperiam, dolor quod nobis! Provident reprehenderit, nostrum maxime sapiente eveniet inventore neque cumque, ducimus molestiae, hic aliquid. Nostrum!</p>
-            <p>Itaque, in laborum, dolores ex totam obcaecati impedit rem minus sed beatae inventore voluptatem eaque consequuntur tenetur quidem a laudantium illo distinctio ipsum veritatis animi repudiandae dicta expedita? Consequuntur, ipsum.</p>
+            <h2>História</h2>
+            <p>A história começa quando Professor Charles Francis Xavier com sua fortuna, transforma sua mansão na Escola para Jovens Superdotados do Professor Charles Xavier, uma fachada para treinar mutantes, humanos que, como resultado de um súbito salto evolucionário, nasceram com habilidades super-humanas latentes, que geralmente se manifestam na puberdade.</p>
+            <p>Assim surge os X-Men liderados pelo próprio professor Xavier que não era somente uma pessoa rica, mas também um mutante, um telepata e “a mente mais poderosa do planeta”. Por outro lado, Erik Magnus Lehnsherr, também conhecido como Magneto, um mutante que consegue controlar qualquer tipo de metal, forma um grupo de guerrilha, a Irmandade dos Mutantes.</p>
+            <p>A partir disso, uma sucessão de acontecimentos envolvendo as duas equipes e suas ideologias ocorrem. De um lado, os X-Men com o ideal de convivência pacífica entre os humanos e os mutantes, de outro A Irmandade com o objetivo de tomar o poder à força para que os mutantes tenham seu lugar assegurado.</p>
         </article>
         
         <aside>
