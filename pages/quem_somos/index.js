@@ -8,28 +8,51 @@ export default ()=>{
      
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
-    <div>
-        <article>
-        <h1>Assas,Discórdia e Despedida</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quo porro illum quia dolores quis dolor, modi non et eveniet iure magnam recusandae facilis corporis vitae sint expedita! Quod, quidem!</p>
-            <p>Pariatur aspernatur perferendis expedita assumenda cupiditate sed, excepturi autem distinctio rem aliquid eveniet esse nulla, atque harum laudantium magni aut voluptas eos eligendi impedit obcaecati eaque consequuntur quidem? Voluptatem, velit.</p>
-            <p>Aut minus aspernatur esse dignissimos nisi placeat odit reprehenderit, eum inventore laboriosam laborum cupiditate obcaecati autem quos, corporis explicabo assumenda facere, voluptates laudantium aliquid dolor voluptatem eveniet officiis. Sint, vitae!</p>
+    <div class="row mt-3 d-flex align-content-center justify-content-center text-justify">
+
+        <article class="col-12 col-sm-11 col-md-11 col-lg-11 col-xl-12 col-xxl-12">
+        <h1 class="text-center">Assas,Discórdia e Despedida</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quo porro illum quia dolores quis
+            dolor, modi non et eveniet iure magnam recusandae facilis corporis vitae sint expedita! Quod, quidem!</p>
+        <p>Pariatur aspernatur perferendis expedita assumenda cupiditate sed, excepturi autem distinctio rem aliquid
+            eveniet esse nulla, atque harum laudantium magni aut voluptas eos eligendi impedit obcaecati eaque
+            consequuntur quidem? Voluptatem, velit.</p>
+        <p>Aut minus aspernatur esse dignissimos nisi placeat odit reprehenderit, eum inventore laboriosam laborum
+            cupiditate obcaecati autem quos, corporis explicabo assumenda facere, voluptates laudantium aliquid dolor
+            voluptatem eveniet officiis. Sint, vitae!</p>
         </article>
 
-        <aside>
-        <div>
-            <section>
-                <h3>Anderson Silva</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis repellat provident pariatur harum tempore! Eum pariatur blanditiis beatae, minus architecto dolores quam ipsum. Accusamus quasi facilis culpa obcaecati vitae deserunt.</p>
+        <aside class="row d-flex justify-content-center align-content-center gap-4">
+        <div class="card p-2 col-12 col-sm-10 col-md-5 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
+            <section class="row d-flex justify-content-center align-content-center align-items-center">
+            <div class="col-5">
+                <img src="./imagens/anderson.png" class="img-fluid" alt="Integrante do grupo de desenvolvedores. Nome: Anderson Silva. Titulos:Porpeta, Gesonel do Caos, Primeira Winx, Fragmentador de Grupo, Coração Fraco">
+            </div>
+            <div class="col-7 p-0">
+                <div class="card-body d-flex row justify-content-center align-content-center">
+                <h5 class="card-title">Anderson Silva</h5>
+                <p class="card-text">RA: 2650832023009</p>
+                </div>
+            </div>
             </section>
         </div>
-        <div>
-            <section>
-                <h3>Rafael Roslan</h3>
-                <p>Nisi dicta libero, pariatur rem aperiam exercitationem ea, iste fugiat excepturi qui in enim iusto eaque facere. Assumenda dignissimos aliquam, maiores totam et esse, delectus laboriosam in quis alias corrupti?</p>
+        
+
+        <div class="card p-2 col-12 col-sm-10 col-md-5 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
+            <section class="row d-flex justify-content-center align-content-center align-items-center">
+            <div class="col-5">
+                <img src="./imagens/rafael.png" class="img-fluid" alt="Integrante do grupo de desenvolvedores. Nome: Rafael Roslan. Titulos: Steve.">
+            </div>
+            <div class="col-7 p-0">
+                <div class="card-body d-flex row justify-content-center align-content-center">
+                <h5 class="card-title">Rafael Roslan</h5>
+                <p class="card-text">RA: 2650832113006</p>
+                </div>
+            </div>
             </section>
         </div>
         </aside>
+
 
     </div>
     `;

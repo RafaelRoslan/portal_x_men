@@ -8,28 +8,64 @@ export default ()=>{
      
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
-    <div>
-        <article>
-            <h1>Outras Mídias</h1>
-            <section>
-                <h3>Desenhos</h3>
-                <p>A primeira versão animada dos X-Men, foi na série The Marvel Super Heroes (apelidada no Brasil de Desenhos Desanimados do Marvel), no segmento The Sub-Mariner estrelado por Namor Anjo, Fera, Ciclope,Homem de Gelo,Garota Marvel e Professor-X aparecem no episódio "Dr. Doom's Day", história adaptada da revista Fantastic Four Annual #3 (1965), a Grantray-Lawrence Animation não tinha possuía os direitos do Quarteto Fantástico (que na época estavam com a Hanna Barbera) então, os produtores os substituiram pelos X-Men, que no episódio são chamados de "Aliados da Paz" (Allies for Peace).</p>
-                <p>Em 1992, a Fox Network lançou uma série animada dos X-Men com o elenco contando com: Ciclope, Jean Grey, Fera, Gambit, Jubileu, Professor X, Vampira, Tempestade e Wolverine, com Bishop, Morfo e Cable co-estrelando com frequência. A série foi um sucesso extraordinário, tornando-se um dos desenhos mais vistos na história da televisão e ajudando a aumentar a popularidade dos X-Men. Ela durou cinco temporadas e terminou em 1997. Recentemente voltou a ser apresentada pela Fox, por vários meses após o lançamento do primeiro filme.</p>
-                <p>Em 2004, Warner Brothers Network lançou X-Men: Evolution que mostrou os X-Men como adolescentes frequentando o colegial, além do Instituto Xavier. A série terminou em 2008 após cinco temporadas.</p>
-                <div><img src="" alt="" width="300" height="300"></div>
-            </section>
-            <section>
-                <h3>Jogos Eletrônicos</h3>
-                <p>Há vários jogos de diversas plataformas em que estrelam os X-Men. A maioria deles são jogos de luta em 2D, tais como X-Men:Children of the Atom de 1994, X-Men vs. Street Fighter de 1996 e X-Men: Mutant Academy de 2000. Há também um jogo de luta em 3D chamado X-Men: Next Dimension.</p>
-                <p>Os mais recentes da série são os jogos de RPG, X-Men Legends de 2004 X-Men Legends II: The Rise of Apocalipse de 2005, e X-Men: Destiny de 2011. Os personagens também apareceram na série Marvel vs. Capcom e nos jogos Marvel: Ultimate Alliance e Marvel: Ultimate Alliance 2. Em 2006, acompanhando o terceiro filme, X-men 3 The Last Stand, temos o jogo X-men- The Official Game, tendo como protagonistas, Wolverine, Homem de Gelo e Noturno.</p>
-                <div><img src="" alt="" width="300" height="300"></div>
-            </section>
-            <section>
-                <h3>Filmes</h3>
-                <p>Poucas franquias foram tão essenciais para a evolução do gênero de filmes de super-heróis como X-Men , que ajudou a inaugurar uma nova era de filmes de quadrinhos.</p>
-                <p>Em 2000, X-Men foi adaptado como uma história sobre a humanidade em primeiro lugar, traçando paralelos com o movimento pelos direitos civis e a luta das minorias em todos os lugares. Essa combinação de drama humano e espetáculo de alto vôo fez X-Men Extremamente popular, gerando uma franquia que até agora abrangeu 13 longas-metragens diversos em tom, elenco e, claro, período de tempo.</p>
-                <div><img src="" alt="" width="300" height="300"></div>
-            </section>
+    <div class="row mt-3 d-flex align-content-center justify-content-center">
+        <article class="col-12 col-sm-11 col-md-11 col-lg-11 col-xl-12 col-xxl-12  d-grid gap-4 text-justify">
+          <h1 class="text-center">Outras Mídias</h1>
+
+          <section class="row">
+            <h3 class="text-center">Desenhos</h3>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-lg-0">
+              <p>A primeira versão animada dos X-Men, foi na série The Marvel Super Heroes (apelidada no Brasil de
+                Desenhos Desanimados do Marvel), no segmento The Sub-Mariner estrelado por Namor Anjo, Fera,
+                Ciclope,Homem de Gelo,Garota Marvel e Professor-X aparecem no episódio "Dr. Doom's Day", história
+                adaptada da revista Fantastic Four Annual #3 (1965), a Grantray-Lawrence Animation não tinha possuía
+                os
+                direitos do Quarteto Fantástico (que na época estavam com a Hanna Barbera) então, os produtores os
+                substituiram pelos X-Men, que no episódio são chamados de "Aliados da Paz" (Allies for Peace).</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 order-2">
+              <p>Em 1992, a Fox Network lançou uma série animada dos X-Men com o elenco contando com: Ciclope, Jean
+                Grey, Fera, Gambit, Jubileu, Professor X, Vampira, Tempestade e Wolverine, com Bishop, Morfo e Cable
+                co-estrelando com frequência. A série foi um sucesso extraordinário, tornando-se um dos desenhos mais
+                vistos na história da televisão e ajudando a aumentar a popularidade dos X-Men. Ela durou cinco
+                temporadas e terminou em 1997. Recentemente voltou a ser apresentada pela Fox, por vários meses após o
+                lançamento do primeiro filme.</p>
+              <p>Em 2004, Warner Brothers Network lançou X-Men: Evolution que mostrou os X-Men como adolescentes
+                frequentando o colegial, além do Instituto Xavier. A série terminou em 2008 após cinco temporadas.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-lg-1">
+              <img src="./imagens/x_men_animacao.jpg" alt="" class="img-fluid">
+            </div>
+          </section>
+          <section class="row">
+            <h3 class="text-center">Jogos Eletrônicos</h3>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-lg-1">
+              <p>Há vários jogos de diversas plataformas em que estrelam os X-Men. A maioria deles são jogos de luta em
+                2D, tais como X-Men:Children of the Atom de 1994, X-Men vs. Street Fighter de 1996 e X-Men: Mutant
+                Academy de 2000. Há também um jogo de luta em 3D chamado X-Men: Next Dimension.</p>
+              <p>Os mais recentes da série são os jogos de RPG, X-Men Legends de 2004 X-Men Legends II: The Rise of
+                Apocalipse de 2005, e X-Men: Destiny de 2011. Os personagens também apareceram na série Marvel vs.
+                Capcom e nos jogos Marvel: Ultimate Alliance e Marvel: Ultimate Alliance 2. Em 2006, acompanhando o
+                terceiro filme, X-men 3 The Last Stand, temos o jogo X-men- The Official Game, tendo como protagonistas,
+                Wolverine, Homem de Gelo e Noturno.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 order-lg-0">
+              <img src="./imagens/x_men_jogo.jpg" alt="" class="img-fluid">
+            </div>
+          </section>
+          <section class="row">
+            <h3 class="text-center">Filmes</h3>
+            <p>Poucas franquias foram tão essenciais para a evolução do gênero de filmes de super-heróis como X-Men ,
+              que ajudou a inaugurar uma nova era de filmes de quadrinhos.</p>
+            <p>Em 2000, X-Men foi adaptado como uma história sobre a humanidade em primeiro lugar, traçando paralelos
+              com o movimento pelos direitos civis e a luta das minorias em todos os lugares. Essa combinação de drama
+              humano e espetáculo de alto vôo fez X-Men Extremamente popular, gerando uma franquia que até agora
+              abrangeu 13 longas-metragens diversos em tom, elenco e, claro, período de tempo.</p>
+            <div>
+              <img src="./imagens/x_men_filme.jpg" alt="" class="img-fluid">
+            </div>
+          </section>
+
         </article>
     </div>
     `;
