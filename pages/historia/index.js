@@ -8,38 +8,7 @@ export default ()=>{
      
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
-    <div>
-        <nav>
-            <ul>
-                <li>
-                <a href="#historia">História</a>
-                </li>
-                <li>
-                <a href="#origem">Origem</a>
-                </li>
-            </ul>
-        </nav>
-
-        <aside>
-            <div>
-                <img src="" alt="" width="300" height="300">
-            </div>
-        </aside>
-        
-        <article>
-            <h2>História</h2>
-            <p>A história começa quando Professor Charles Francis Xavier com sua fortuna, transforma sua mansão na Escola para Jovens Superdotados do Professor Charles Xavier, uma fachada para treinar mutantes, humanos que, como resultado de um súbito salto evolucionário, nasceram com habilidades super-humanas latentes, que geralmente se manifestam na puberdade.</p>
-            <p>Assim surge os X-Men liderados pelo próprio professor Xavier que não era somente uma pessoa rica, mas também um mutante, um telepata e “a mente mais poderosa do planeta”. Por outro lado, Erik Magnus Lehnsherr, também conhecido como Magneto, um mutante que consegue controlar qualquer tipo de metal, forma um grupo de guerrilha, a Irmandade dos Mutantes.</p>
-            <p>A partir disso, uma sucessão de acontecimentos envolvendo as duas equipes e suas ideologias ocorrem. De um lado, os X-Men com o ideal de convivência pacífica entre os humanos e os mutantes, de outro A Irmandade com o objetivo de tomar o poder à força para que os mutantes tenham seu lugar assegurado.</p>
-        </article>
-        
-        <aside>
-            <div>
-                <img src="" alt="" width="400" height="200">
-            </div>
-        </aside>
-
-    </div>
+    
     `;
 
     //adição do template ao container - aqui nós colocamos todo o conteúdo dentro da div.
