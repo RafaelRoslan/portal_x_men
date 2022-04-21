@@ -20,8 +20,8 @@ export default ()=>{
         </ul>
         </nav>
 
-        <div class="row mt-5 text-justify gap-3 gap-md-0">
-        <article class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 order-1 order-md-0">
+        <div class="row mt-5 text-justify gap-3 gap-md-0 d-flex justify-content-center">
+        <article class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10 order-1 order-md-0">
             <h2 class="text-center">História</h2>
             <p>A história começa quando Professor Charles Francis Xavier com sua fortuna, transforma sua mansão na
             Escola para Jovens Superdotados do Professor Charles Xavier, uma fachada para treinar mutantes, humanos
@@ -37,13 +37,13 @@ export default ()=>{
         </article>
 
         <aside class="p-md-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 order-0 mt-md-3 order-md-2">
-            <div>
+            <div class="d-flex align-content-center justify-content-center justify-content-md-start">
             <img src="./imagens/brotherhood.png" class="img-fluid" alt="">
             </div>
         </aside>
 
         <aside class="p-md-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 order-2 mt-md-3 order-md-1">
-            <div>
+            <div class="d-flex align-content-center justify-content-center justify-content-md-end">
             <img src="./imagens/x_men.png" class="img-fluid" alt="" >
             </div>
         </aside>

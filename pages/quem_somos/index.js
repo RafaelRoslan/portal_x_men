@@ -10,7 +10,7 @@ export default ()=>{
     const template = `
     <div class="row mt-3 d-flex align-content-center justify-content-center text-justify">
 
-        <article class="col-12 col-sm-11 col-md-11 col-lg-11 col-xl-12 col-xxl-12">
+        <article class="col-12 col-sm-11 col-md-10 col-lg-10 col-xl-10 col-xxl-10 mb-3">
         <h1 class="text-center">Assas,Discórdia e Despedida</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quo porro illum quia dolores quis
             dolor, modi non et eveniet iure magnam recusandae facilis corporis vitae sint expedita! Quod, quidem!</p>
@@ -22,8 +22,8 @@ export default ()=>{
             voluptatem eveniet officiis. Sint, vitae!</p>
         </article>
 
-        <aside class="row d-flex justify-content-center align-content-center gap-4">
-        <div class="card p-2 col-12 col-sm-10 col-md-5 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
+        <aside class="row d-flex justify-content-center align-content-center gap-4 gap-md-5">
+        <div class="card p-2 col-12 col-sm-10 col-md-4 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
             <section class="row d-flex justify-content-center align-content-center align-items-center">
             <div class="col-5">
                 <img src="./imagens/anderson.png" class="img-fluid" alt="Integrante do grupo de desenvolvedores. Nome: Anderson Silva. Titulos:Porpeta, Gesonel do Caos, Primeira Winx, Fragmentador de Grupo, Coração Fraco">
@@ -38,7 +38,7 @@ export default ()=>{
         </div>
         
 
-        <div class="card p-2 col-12 col-sm-10 col-md-5 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
+        <div class="card p-2 col-12 col-sm-10 col-md-4 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
             <section class="row d-flex justify-content-center align-content-center align-items-center">
             <div class="col-5">
                 <img src="./imagens/rafael.png" class="img-fluid" alt="Integrante do grupo de desenvolvedores. Nome: Rafael Roslan. Titulos: Steve.">
