@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.cardlargura {
+    max-width: 300px;
+}
+
+.navcor {
+    background-color: #151515 !important;
+}
+
+li,
+a {
+    color: white !important;
+}
