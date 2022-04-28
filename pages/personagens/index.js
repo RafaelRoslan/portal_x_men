@@ -9,31 +9,44 @@ export default () => {
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
     <div>
-    <article>
-    <h1>Personagens</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="">
-                    <img src="" alt="" width="500" height="300">
-                    <p>X-Men</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="" alt="" width="500" height="300">
-                    <p>Antagonistas</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="" alt="" width="500" height="300">
-                    <p> Novos Mutantes</p>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</article>
+            <article>
+                <h1>Personagens</h1>
+                <nav>
+
+                    <ul class="card-group">
+                        <li>
+                            <a class="nav-link card" href="#x-men">
+                                <img src="./imagens/Personagens_X-Men.jpg" class="card-img-top" alt="..." width="500"
+                                    height="600">
+                                <div class="card-body">
+                                    <h5 class="card-title">X-Men</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+
+                            <a class="nav-link card" href="#antagonistas">
+                                <img src="./imagens/Personagens_Antagonista.jpg" class="card-img-top" alt="..."
+                                    width="500" height="600">
+                                <div class="card-body">
+                                    <h5 class="card-title">Antagonista</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+
+                            <a class="nav-link card" href="#novos-mutantes">
+                                <img src="./imagens/Personagens_Novos_Mutantes.jpg" class="card-img-top" alt="..."
+                                    width="500" height="600">
+                                <div class="card-body">
+                                    <h5 class="card-title">Novos Mutantes</h5>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </article>
         </div>
     
     `;

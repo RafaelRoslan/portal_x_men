@@ -12,16 +12,16 @@ import origem from "../pages/origem/index.js";
 import outrasMidias from "../pages/outras_midias/index.js";
 import personagens from "../pages/personagens/index.js";
 import quemSomos from "../pages/quem_somos/index.js";
-import xMen  from "../pages/x_men/index.js";
+import xMen from "../pages/x_men/index.js";
 
 //Aqui criamos a constante main que recebe um elemento buscado no documento pelo query selector. Nesse caso o elemento <main> com a id="root".
 const main = document.querySelector("#root");
 
 //Aqui criamos a constante init que recebe uma arrow-function.
-const init = ()=>{
+const init = () => {
     //Dentro dessa arrow-function usamos o window.addEventListener para "ouvir" algum evento.
     //Aqui o window.addEventListener está "ouvindo" qualquer mudança na hashtag da url através do hashchange.
-    window.addEventListener("hashchange",()=>{
+    window.addEventListener("hashchange", () => {
         //Aqui limpamos qualquer coisa que esteja dentro da tag <main> ao definir que seu conteúdo é "".
         main.innerHTML = "";
         //Partir daqui usamos um Switch-Case para um teste logíco, o resultado executa a adição do conteudo na tag <main>.
@@ -34,11 +34,23 @@ const init = ()=>{
                 break;
 
             case "#origem":
-                    main.appendChild(origem());
-                    break;
+                main.appendChild(origem());
+                break;
 
             case "#personagens":
                 main.appendChild(personagens());
+                break;
+
+            case "#x-men":
+                main.appendChild(xMen());
+                break;
+
+            case "#antagonistas":
+                main.appendChild(antagonistas());
+                break;
+
+            case "#novos-mutantes":
+                main.appendChild(novosMutantes());
                 break;
 
             case "#arcos":
@@ -69,7 +81,7 @@ const init = ()=>{
 }
 
 //Aqui usamos o window.addEventListener para "ouvir" o evento de "load", ou seja quando a página carregar ele executará a sequencia de código.
-window.addEventListener("load", ()=>{
+window.addEventListener("load", () => {
     main.appendChild(home());
     init();
 });
