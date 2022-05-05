@@ -1,6 +1,83 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+/* FONTE */
+
+.fontemukta {
+    font-family: 'Mukta', sans-serif;
+}
+
+.fontenegrito {
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+}
+
+
+/* FIM FONTE */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: brown;
+}
+
+li {
+    list-style-type: none;
+}
+
+li,
+a {
+    color: white !important;
+}
+
+.botaocor {
+    background-color: #cba303;
+}
+
+.cornavfooter {
+    background-color: #151515 !important;
+}
+
+.cardlargura {
+    max-width: 300px;
+}
+
+.limpar {
+    text-decoration: none !important;
+    color: black;
+}
+
+.cardajuste {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
 }
 
 
 /* CCS Anderson */
+
+
+/* .maincorteste {
+    background-color: #444343;
+}
+
+a:hover {
+    background-color: #FDCB00 !important;
+}
+
+.testepersonagem {
+    background-color: #b88b21 !important;
+}
+
+.corfonte {
+    color: white !important;
+}
+
+p {
+    color: white;
+} */

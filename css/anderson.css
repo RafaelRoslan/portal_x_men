@@ -3,17 +3,62 @@
     max-width: 300px;
 }
 
-.navcor {
-    background-color: #151515 !important;
+
+/* Class Funcionando  */
+
+.cornavfooter {
+    background-color: #1a1a1a !important;
 }
 
 
-/* 
+/* a:hover {
+    background-color: #f0b62b !important;
+} */
+
 li,
 a {
     color: white !important;
 }
 
-h5 {
-    color: black;
-} */
+.corfonte {
+    color: white !important;
+}
+
+.botaocor {
+    background-color: #b88b21;
+}
+
+.corteste {
+    background-color: #4a4a4a !important;
+}
+
+.testepersonagem {
+    background-color: #b88b21 !important;
+}
+
+.maincorteste {
+    background-color: #262626;
+}
+
+p {
+    color: white;
+    /* Provisorio */
+}
+
+.testeagoravai {
+    background-color: white;
+}
+
+#link-topo {
+    position: fixed;
+    padding: 41% 20px 10px 97%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.imglargura {
+    width: 100%;
+    height: auto;
+}
