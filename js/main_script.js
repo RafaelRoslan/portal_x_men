@@ -73,6 +73,10 @@ const init = () => {
                 main.appendChild(quemSomos());
                 break;
 
+            case "#termos-de-uso":
+                main.appendChild(termosDeUso());
+                break;
+
             default:
                 main.appendChild(home());
                 break;
