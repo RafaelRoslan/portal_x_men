@@ -8,66 +8,84 @@ export default () => {
 
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
+   
     <div>
-            <div class="container">
-                <img class="w-100" src="imagens/home_xmen.jpeg" alt="">
-                <div class="row align-items-center justify-content-center">
+    <div class="row mt-3 d-flex align-content-center justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 col-xxl-8">
 
-                    <article class="col-10 col-sm-12 col-md-10 col-lg-6 order-lg-1 gap-3">
-                        <h1 class="text-center mb-3">X-Men</h1>
-                        <p>Percebendo que os mutantes eram o próximo passo na evolução humana, o professor Charles Xavier reuniu adolescentes talentosos para serem sua primeira turma de alunos. Seu objetivo é proteger e educar a próxima geração de homo superior,
-                            enquanto persegue um sonho de harmonia.</p>
-                    </article>
+            <div class="row align-items-center justify-content-center">
 
-                    <aside class="col-10 col-sm-10 col-md-10 col-lg-5 order-lg-0">
-                        <img src="imagens/teste.png" class="img-fluid" alt="graficos de casos registrados na Itália, desde a abril de 2020 até novembro de 2021.">
-                    </aside>
-                </div>
+                <article class="col-10 col-sm-12 col-md-10 col-lg-6 order-lg-1 gap-3">
+                    <h1 class="text-center mb-3">X-Men</h1>
+                    <p>Percebendo que os mutantes eram o próximo passo na evolução humana, o professor Charles Xavier reuniu adolescentes talentosos para serem sua primeira turma de alunos. Seu objetivo é proteger e educar a próxima geração de homo
+                        superior, enquanto persegue um sonho de harmonia.</p>
+                </article>
+
+                <aside class="col-10 col-sm-10 col-md-10 col-lg-5 order-lg-0">
+                    <img src="imagens/teste.png" class="img-fluid" alt="Imagem de alguns x-men, da esquerda para direita: Gambit, Jean Grey, Wolverine, Tempestade, Ciclope e Vampira">
+                </aside>
             </div>
-            <section class="row justify-content-evenly">
-                <!-- <article class="container my-5"> -->
-                <h1>Últimas Notícias</h1>
-                <div class="row justify-content-center align-items-center ">
-                    <section class="card m-2 cardlargura">
-                        <img src="imagens/imagem_meramente_ilustrativa" width="300" height="150" alt="">
-                        <div class="card-body mt-2">
-                            <h5>Notícia 1</h5>
-                            <p>Voluptates, praesentium harum. Commodi eligendi saepe similique pariatur beatae quis iste magnam quidem praesentium tempora. Quam modi beatae pariatur accusantium, adipisci molestias nobis quod voluptas voluptatum dolor, consequuntur
-                                sit animi?
-                            </p>
-                        </div>
-                    </section>
-                    <section class="card m-2 cardlargura">
-                        <img src="imagens/imagem_meramente_ilustrativa" width="300" height="150" alt="">
-                        <div class="card-body mt-2">
-                            <h5>Notícia 2</h5>
-                            <p>Voluptates, praesentium harum. Commodi eligendi saepe similique pariatur beatae quis iste magnam quidem praesentium tempora. Quam modi beatae pariatur accusantium, adipisci molestias nobis quod voluptas voluptatum dolor, consequuntur
-                                sit animi?
-                            </p>
-                        </div>
-                    </section>
-                    <section class="card m-2 cardlargura">
-                        <img src="imagens/imagem_meramente_ilustrativa" width="300" height="150" alt="">
-                        <div class="card-body mt-2">
-                            <h5>Notícia 3</h5>
-                            <p>Voluptates, praesentium harum. Commodi eligendi saepe similique pariatur beatae quis iste magnam quidem praesentium tempora. Quam modi beatae pariatur accusantium, adipisci molestias nobis quod voluptas voluptatum dolor, consequuntur
-                                sit animi?
-                            </p>
-                        </div>
-                    </section>
-                    <section class="card m-2 cardlargura">
-                        <img src="imagens/imagem_meramente_ilustrativa" width="300" height="150" alt="">
-                        <div class="card-body mt-2">
-                            <h5>Notícia 4</h5>
-                            <p>Voluptates, praesentium harum. Commodi eligendi saepe similique pariatur beatae quis iste magnam quidem praesentium tempora. Quam modi beatae pariatur accusantium, adipisci molestias nobis quod voluptas voluptatum dolor, consequuntur
-                                sit animi?
-                            </p>
-                        </div>
-                    </section>
-                </div>
+        </div>
+    </div>
+
+    <article class="row justify-content-evenly cardajuste">
+        <!-- <article class="container my-5"> -->
+        <h1 class="text-center pt-5">Últimas Notícias</h1>
+        <div class="row justify-content-center">
+            <section class="card m-2 cardlargura">
+                <a href="https://olhardigital.com.br/2022/04/07/cinema-e-streaming/hq-da-marvel-sugere-que-jesus-poderia-ter-sido-um-mutante-dos-x-men/" class="limpar">
+                    <img src="imagens/Noticia_1.jpg" class="img-fluid" width="300" height="150" alt="Imagem da HQ Immortal X-Men">
+                    <div class="card-body mt-2">
+                        <h5>HQ da Marvel sugere que Jesus poderia ter sido um mutante</h5>
+                        <p>Jesus Cristo é um Mutante? É o que sugere um diálogo presente na HQ Immortal X-Men nº 1
+                        </p>
+                    </div>
+                </a>
+
+            </section>
+            <section class="card m-2 cardlargura">
+                <a href="https://canaltech.com.br/quadrinhos/x-men-e-eternos-envolvem-os-vingadores-em-novas-saga-epica-da-marvel-213864/" class="limpar">
+                    <img src="imagens/noticia_2.jpeg" class="img-fluid" width="300" height="150" alt="Imagem dos vingadores, eternos e os X-Men">
+                    <div class="card-body mt-2">
+                        <h5>X-Men e Eternos envolvem os Vingadores em nova saga</h5>
+                        <p>Os X-Men e os Eternos entrarão em conflito uns com os outros, em uma batalha para decidir quem são os verdadeiros deuses daquela realidade.
+                        </p>
+                    </div>
+                </a>
+
+            </section>
+            <section class="card m-2 cardlargura">
+                <a href="https://www.omelete.com.br/marvel-cinema/x-men-97-mcu-roteirista-comenta" class="limpar">
+                    <img src="imagens/noticia_3.jpg" class="img-fluid" width="300" height="150" alt="Imagem do Wolverine olhando para o quadro do X-men 97">
+                    <div class="card-body mt-2">
+                        <h5>X-Men 97 - Roteirista despista sobre entrada da série no MCU</h5>
+                        <p>X-Men 97 pode ter conexões com o MCU. Beau DeMayo, roteirista da série.
+                        </p>
+                    </div>
+                </a>
+
+            </section>
+            <section class="card m-2 cardlargura">
+                <a href="https://olhardigital.com.br/2022/04/07/cinema-e-streaming/hq-da-marvel-sugere-que-jesus-poderia-ter-sido-um-mutante-dos-x-men/" class="limpar">
+                    <img src="imagens/noticia_4.jpg" class="img-fluid" width="300" height="150" alt="Imagem da cena do Filme X-Men: Apocalypse">
+                    <div class="card-body mt-2">
+                        <h5>Oscar Isaac não se arrepende de interpretar Apocalypse em X-Men</h5>
+                        <p>Oscar Isaac encontra-se atualmente ligado ao Universo da Marvel de diferentes formas e uma delas é através do filme X-Men: Apocalypse
+                        </p>
+                    </div>
+                </a>
 
             </section>
         </div>
+        <div class="row justify-content-center align-items-center">
+            <section class="col-10 col-sm-10 col-md-10 col-lg-6 bg-dark bg-opacity-25 rounded-2 mt-3 p-2 text-center">
+                <h4 class="m-0"><a href="https://www.google.com/search?q=x+men+noticias" class="limpar">Leia
+                                mais</a></h4>
+            </section>
+        </div>
+
+    </article>
+</div>
         `;
 
     //adição do template ao container - aqui nós colocamos todo o conteúdo dentro da div.

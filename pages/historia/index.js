@@ -1,21 +1,21 @@
 //conteúdo História
 
 //Criação da função por meio de arrow-function - Arrow function é uma função resumida.
-export default ()=>{
+export default () => {
 
     //criação da div - a constante container vai amarzenar o elemento criado, nesse caso a a tag <div>. 
     const container = document.createElement('div');
-     
+
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
         <div class="row mt-3 d-flex align-content-center justify-content-center">
         <nav class="col-10 col-sm-10 col-md-10 col-lg-7 p-0">
             <ul class="nav nav-tabs justify-content-center gap-5">
             <li class="nav-item">
-                <a class="nav-link" href="./historia.html">História</a>
+                <a class="nav-link" href="#historia">História</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./origem.html">Origem</a>
+                <a class="nav-link" href="#origem">Origem</a>
             </li>
             </ul>
         </nav>
