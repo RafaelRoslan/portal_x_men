@@ -9,21 +9,43 @@ export default () => {
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
     <div>
-    <article>
-        <h1>Lorem ipsum</h1>
-        <form>
-            <p>Nome Completo:</p>
-            <input type="text" name="Nome Completo">
-            <p>E-mail:</p>
-            <input type="text" name="Nome Completo">
-            <p>Mensagem</p>
-            <input type="text" name="Nome Completo">
+    <article class="row rounded-3">
+
+
+        <div class="col-10 col-sm-10 col-md-5 col-lg-5 corcard m-4 p-4 ">
+            <h3><b>Contato X-Men</b></h3>
+            <p>Texto em construção</p>
+            <p>Texto em construção</p>
+            <p>Texto em construção</p>
+            <p>Texto em construção</p>
+            <p>Texto em construção</p>
+            <p>Texto em construção</p>
+            <p>Texto em construção</p>
+            <p>Texto em construção</p>
+        </div>
+
+        <form class="col-10 col-sm-10 col-md-5 col-lg-6 corcard m-4 p-4 corcard">
+
+            <h3><b>Fale conosco</b></h3>
+            <div class="mb-3">
+                <label for="exampleFormControlInput" class="form-label ">Nome completo</label>
+                <input type="email" class="form-control" id="exampleFormControlInput" placeholder="">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-2 text-end">Enviar</button>
+
         </form>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio numquam consequatur atque libero odio maxime, voluptatem nulla quo laboriosam. Quidem numquam harum fuga magni beatae asperiores voluptatum porro rem. Deleniti.</p>
-        <p>Obcaecati, error ad. Dignissimos, laboriosam? Non ut quasi consectetur quisquam! Unde, suscipit voluptatibus aspernatur fugiat enim placeat velit eius est, perferendis doloremque deserunt illum ut dolore deleniti quae aut nam?</p>
-        <p>Est suscipit id laborum voluptatibus doloremque iste reiciendis fugit quae ratione! Perspiciatis repudiandae nihil totam adipisci quibusdam sint beatae molestias doloribus obcaecati accusamus? Porro, repellat magnam. Ipsa tempore provident
-            autem!
-        </p>
+
     </article>
 
 </div>

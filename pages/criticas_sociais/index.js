@@ -9,6 +9,7 @@ export default () => {
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
     
+    
     <div class="row mt-3 d-flex align-content-center justify-content-center">
     <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 col-xxl-8">
         <article class="row d-grid gap-4 text-justify d-flex align-content-center justify-content-center">
@@ -127,9 +128,12 @@ export default () => {
             </section>
 
 
-
+        </article>
 
     </div>
+</div>
+
+
 
     `;
 
