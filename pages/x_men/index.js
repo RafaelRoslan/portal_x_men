@@ -14,7 +14,7 @@ export default () => {
                 <article class="row d-grid gap-4 text-justify d-flex align-content-center justify-content-center">
 
                     <h1 class="text-center">Personagens</h1>
-                    <nav class="col-10 col-sm-10 col-md-10 col-lg-9 p-0">
+                    <nav class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-12 col-xxl-12 p-0">
                         <ul class="nav nav-tabs justify-content-center">
                             <li class="nav-item">
                                 <a class="nav-link active" href="#x-men">
@@ -39,11 +39,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_x_men_ciclope.jpg" class="img-fluid" alt="Imagem do Personagem Ciclope">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Scott Summers - Ciclope </h5>
                             <p>Scott Summers é o filho mais velho do Major Christopher Summers (também conhecido como Corsário), um piloto de teste na Força Aérea dos Estados Unidos, e sua esposa Katherine Ann. Seu irmão mais novo é Alex, hoje conhecido
@@ -66,11 +66,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_x_men_jean_grey.jpg" class="img-fluid" alt="Imagem da Personagem Jean Grey">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Jean Grey - Garota Marvel</h5>
                             <p>Jean Grey era a filha mais nova do Professor John Grey do Departamento de História do Colégio Bard em Annandale-on-Hudson, Nova York, e sua esposa Elaine Grey. Quando Jean tinha dez anos de idade, ela estava brincando com sua
@@ -90,11 +90,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_x_men_homem_de_gelo.jpg" class="img-fluid" alt="Imagem do Homem de Gelo">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Robert "Bobby" Louis Drake - Homem de Gelo</h5>
                             <p>Bobby Drake descobriu sua habilidade mutante de controlar o gelo ainda no início de sua adolescência, o jovem sofria de fortes surtos de frio proveniente de seu poder. Seus pais o convenceram a não expor seus poderes a ninguém,
@@ -112,11 +112,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_x_men_anjo.jpg" class="img-fluid" alt="Imagem do Personagem Anjo">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Warren Worthington III - Anjo</h5>
                             <p>Warren Kenneth Worthington III é o mutante filho dos rico Warren K. Worthington Jr. e sua esposa Kathryn, sendo que nenhum dos dois estava ciente de que seu filho havia desenvolvido um par de grandes asas emplumadas em suas
@@ -133,11 +133,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_x_men_fera.jpg" class="img-fluid" alt="Imagem do Personagem Fera">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Hank McCoy - Fera</h5>
                             <p>Hank é filho único de Edna e Norton MacCoy. Antes de seu nascimento, seu pai trabalhava numa usina nuclear, ocorreu um acidente onde Norton sobreviveu por pouco. Sempre especulou-se o que causara a mutação na nova geração de
@@ -152,11 +152,11 @@ export default () => {
                     </section>
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_x_men_charlie_xavier.jpg" class="img-fluid" alt="Imagem do Personagem Charlie Xavier">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Dr. Charlie Francis Xavier – Professor X</h5>
                             <p>Antes mesmo de nascer, quando ainda estava sendo gerado no útero de Sharon Xavier, Charles teve que enfrentar um Mummundrai - parasitas sem corpo que tentam consumir o feto – e Xavier instintivamente o detém psionicamente em

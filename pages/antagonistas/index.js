@@ -17,7 +17,7 @@ export default () => {
                 <article class="row d-grid gap-4 text-justify d-flex align-content-center justify-content-center">
 
                     <h1 class="text-center">Personagens</h1>
-                    <nav class="col-10 col-sm-10 col-md-10 col-lg-9 p-0">
+                    <nav class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-12 col-xxl-12 p-0">
                         <ul class="nav nav-tabs justify-content-center">
                             <li class="nav-item">
                                 <a class="nav-link" href="#x-men">
@@ -42,11 +42,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Antagonistas_Magneto.jpg" class="img-fluid" alt="Imagem do personagem Magneto">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Erik Magnus Lensherr – Magneto</h5>
                             <p>Max Eisenhardt, Erik Magnus Lensherr ou simplesmente Magneto viu o que há de pior na humanidade. Nascido um judeu ele conheceu os terrores do medo e do preconceito na própria pele e quando descobriu que era um mutante e viu
@@ -64,11 +64,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Antagonistas_Apocalipse.jpg" class="img-fluid" alt="Imagem do personagem Apocalipse">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Apocalipse</h5>
                             <p>Nascido no antigo Egito há mais de 5000 anos, Apocalipse apareceu pela primeira vez em Marvel Graphic Novels #17 (1985) mas sua revelação completa veio em X-Factor #5 (1986).
@@ -84,11 +84,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Antagonistas_Sinistro.jpg" class="img-fluid rounded-start" alt="Imagem do personagem Sinistro">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Sinistro e os Carniceiros</h5>
                             <p>Nathaniel Essex é um geneticista nascido no século 19 e mutado através de experiências do próprio Apocalipse. As buscas de Sinistro pela perfeição genética eventualmente colocaram diversos mutantes em sua lista de experimentos,
@@ -103,11 +103,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Antagonistas_Fenix_Negra.jpg" class="img-fluid rounded-start" alt="Imagem da personagem Fênix Negra">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">A Fênix Negra</h5>
                             <p>Ainda que mais comumente associada com a Jean Grey, a entidade da destruição chamada de Fênix Negra também já se manifestou através do Ciclope e diversos outros personagens envolvidos com os X-Men. A Fênix apareceu pela primeira
@@ -121,11 +121,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Antagonistas_Emma_Frost.jpg" class="img-fluid rounded-start" alt="Imagem da personagem Emma Frost ">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">EMMA FROST</h5>
                             <p>Emma Frost, mais conhecida como Rainha Branca do Clube do Inferno foi introduzida como vilã durante uma das mais icônicas histórias dos X-Men já feita: A Saga da Fênix Negra. Ela é o melhor exemplo de um vilão que se tornou
@@ -140,11 +140,11 @@ export default () => {
                     </section>
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Antagonistas_Fanatico.jpg" class="img-fluid rounded-start" alt="Imagem do personagem Fanatico">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Fanático</h5>
                             <p>Fanático é um dos arqui-inimigos dos X-Men. Como meio irmão de Charles Xavier ele foi originalmente retratado como sendo o oposto do professor: muito músculo e pouco cérebro. Com o passar do tempo ele foi ganhando um pouco

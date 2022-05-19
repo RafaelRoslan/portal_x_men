@@ -15,7 +15,7 @@ export default () => {
                 <article class="row d-grid gap-4 text-justify d-flex align-content-center justify-content-center">
 
                     <h1 class="text-center">Personagens</h1>
-                    <nav class="col-10 col-sm-10 col-md-10 col-lg-9 p-0">
+                    <nav class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-12 col-xxl-12 p-0">
                         <ul class="nav nav-tabs justify-content-center">
                             <li class="nav-item">
                                 <a class="nav-link" href="#x-men">
@@ -40,11 +40,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Novos_Mutantes_Rahne_Sinclair_Lupina.jpg" class="img-fluid" alt="Imagem da Personagem Lupina">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Rahne Sinclair – Lupina</h5>
                             <p>Rahne Sinclair é uma jovem escocesa que possui a habilidade de se transformar em lobo e também em uma espécie de lobisomem. Foi resgatada por Moira em uma de suas transformações. A jovem estava sendo perseguida por cidadãos,
@@ -57,11 +57,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Novos_Mutantes_Roberto_da_Costa_Mancha_Solar.jpg" class="img-fluid" alt="Imagem do Personagem Mancha Solar">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Roberto da Costa – Mancha Solar</h5>
                             <p>Roberto da Costa é um jovem rico e brasileiro que possui a habilidade de absorver energia solar e convertê-la em rajadas de energia. Quando usa os seus poderes ao máximo, o seu corpo assume uma forma que se assemelha a superfície
@@ -74,11 +74,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Novos_Mutantes_Sam_Guthrie_Míssil.jpg" class="img-fluid" alt="Imagem do Personagem Míssil">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Sam Guthrie – Míssil</h5>
                             <p>Sam Guthrie é um jovem americano que possui a habilidade de se transformar em um “míssil-vivo”. Quando está nessa forma, possui a habilidade de voar e ganha super-força. Depois que o seu pai morreu, passou a trabalhar em uma
@@ -90,11 +90,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Novos_Mutantes_Xian_Coy_Mahn_Karma.jpg" class="img-fluid" alt="Imagem da Personagem Karma">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Xi’an Coy Mahn – Karma</h5>
                             <p>Xi’an Coy Mahn é uma jovem vietinamita e telepata que possui a habilidade de possuir corpos. Filha de imigrantes que fugiram do Vietinã, ela e o seu irmão, também mutante (mesmas habilidades), trabalharam como criminosos ao
@@ -106,11 +106,11 @@ export default () => {
 
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Novos_Mutantes_Danielle_Moonstar_Miragem.jpg" class="img-fluid" alt="Imagem da Personagem Miragem">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Danielle Moonstar – Miragem</h5>
                             <p class="card-text">Danielle Moonstar é uma nativo-americana chayene. É uma telepata que possui a habilidade de projetar os maiores medos das pessoas. Os seus pais morreram em um acidente. O seu avô, conhecido como Pássaro, acreditava que era
@@ -121,11 +121,11 @@ export default () => {
                     </section>
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
 
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-3 col-xl-3 col-xxl-3">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-3 col-xxl-3">
                             <img src="imagens/Personagens/Personagens_Novos_Mutantes_Illyana_Rasputin_Magia.jpg" class="img-fluid" alt="Imagem da Personagem Magia">
 
                         </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7">
+                         <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-7 col-xxl-7">
 
                             <h5 class="text-center">Illyana Rasputin – Magia</h5>
                             <p class="card-text">Illyana Rasputin irá substituir Karma como um dos membros fundadores da equipe no filme. Ela é irmã de Piotr Rasputin, o Colossus. É uma mutante russa que possui a habilidade de se transportar entre dimensões e tempo através

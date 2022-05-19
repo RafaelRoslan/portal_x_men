@@ -11,7 +11,7 @@ export default () => {
     
     
     <div class="row mt-3 d-flex align-content-center justify-content-center">
-    <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 col-xxl-8">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
         <article class="row d-grid gap-4 text-justify d-flex align-content-center justify-content-center">
             <h1 class="text-center">Critica Social Foda</h1>
 
