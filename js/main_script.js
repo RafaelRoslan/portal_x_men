@@ -17,6 +17,7 @@ import xMen from "../pages/x_men/index.js";
 //Aqui criamos a constante main que recebe um elemento buscado no documento pelo query selector. Nesse caso o elemento <main> com a id="root".
 const main = document.querySelector("#root");
 
+
 //Aqui criamos a constante init que recebe uma arrow-function.
 const init = () => {
     //Dentro dessa arrow-function usamos o window.addEventListener para "ouvir" algum evento.
@@ -27,58 +28,77 @@ const init = () => {
         //Partir daqui usamos um Switch-Case para um teste logíco, o resultado executa a adição do conteudo na tag <main>.
         switch (window.location.hash) {
             case " ":
+                document.title = "X-Verse:Portal X-Men | Home";
                 main.appendChild(home());
+                document.getElementById("t").focus();
                 break;
             case "#historia":
+                document.title = "X-Verse:Portal X-Men | Historia";
                 main.appendChild(historia());
+                document.getElementById("t").focus();
                 break;
 
             case "#origem":
+                document.title = "X-Verse:Portal X-Men | Origem";
                 main.appendChild(origem());
+                document.getElementById("t").focus();
                 break;
 
             case "#personagens":
+                document.title = "X-Verse:Portal X-Men | Personagens";
                 main.appendChild(personagens());
+                document.getElementById("t").focus();
                 break;
 
             case "#x-men":
                 main.appendChild(xMen());
+                document.getElementById("t").focus();
                 break;
 
             case "#antagonistas":
                 main.appendChild(antagonistas());
+                document.getElementById("t").focus();
                 break;
 
             case "#novos-mutantes":
                 main.appendChild(novosMutantes());
+                document.getElementById("t").focus();
                 break;
 
             case "#arcos":
                 main.appendChild(arcos());
+                document.getElementById("t").focus();
                 break;
 
             case "#outras-midias":
                 main.appendChild(outrasMidias());
+                document.getElementById("t").focus();
                 break;
 
             case "#critica-social":
                 main.appendChild(criticasSociais());
+                document.getElementById("t").focus();
                 break;
 
             case "#contato":
                 main.appendChild(contato());
+                document.getElementById("t").focus();
                 break;
 
             case "#quem-somos":
                 main.appendChild(quemSomos());
+                document.getElementById("t").focus();
                 break;
 
             case "#termos-de-uso":
                 main.appendChild(termosDeUso());
+                document.getElementById("t").focus();
                 break;
 
             default:
+                document.title = "home";
                 main.appendChild(home());
+                document.getElementById("t").focus();
                 break;
         }
     });
@@ -87,5 +107,7 @@ const init = () => {
 //Aqui usamos o window.addEventListener para "ouvir" o evento de "load", ou seja quando a página carregar ele executará a sequencia de código.
 window.addEventListener("load", () => {
     main.appendChild(home());
+    document.title = "X-Verse:Portal X-Men | Home";
+    document.getElementById("t").focus();
     init();
 });

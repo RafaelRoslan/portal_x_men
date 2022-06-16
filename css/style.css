@@ -58,7 +58,11 @@ a {
     height: 100%;
 }
 
-
+.botaoRetornarTopo{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
 /* CCS Anderson */
 
 
