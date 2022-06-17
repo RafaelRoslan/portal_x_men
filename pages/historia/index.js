@@ -12,10 +12,10 @@ export default () => {
         <nav class="col-10 col-sm-10 col-md-10 col-lg-7 p-0">
             <ul class="nav nav-tabs justify-content-center gap-5">
             <li class="nav-item">
-                <a class="nav-link" href="#historia">História</a>
+                <a class="nav-link fonte" href="#historia"><h5>História</h5></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#origem">Origem</a>
+                <a class="nav-link" href="#origem"><h5>Origem</h5></a>
             </li>
             </ul>
         </nav>

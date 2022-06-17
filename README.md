@@ -20,20 +20,20 @@
 
  - [x] Implementar SPA
  - [x] Testar SPA
- - [] Implementar Conteúdo Home
- - [] Implementar Conteúdo Antagonistas
- - [] Implementar Conteúdo Arcos
- - [] Implementar Conteúdo Contato
- - [] Implementar Conteúdo Crítica Sociais
- - [] Implementar Conteúdo História
- - [] Implementar Conteúdo Norma de Uso
- - [] Implementar Conteúdo Novos Mutantes
- - [] Implementar Conteúdo Origem
- - [] Implementar Conteúdo Outras Mídias
- - [] Implementar Conteúdo Personagens
- - [] Implementar Conteúdo Quem Somos
- - [] Implementar Conteúdo X-Men
- - [] Implementar css proprio
- - [] Implementar Acessibilidade
+ - [x] Implementar Conteúdo Home
+ - [x] Implementar Conteúdo Antagonistas
+ - [x] Implementar Conteúdo Arcos
+ - [x] Implementar Conteúdo Contato
+ - [x] Implementar Conteúdo Crítica Sociais
+ - [x] Implementar Conteúdo História
+ - [x] Implementar Conteúdo Norma de Uso
+ - [x] Implementar Conteúdo Novos Mutantes
+ - [x] Implementar Conteúdo Origem
+ - [x] Implementar Conteúdo Outras Mídias
+ - [x] Implementar Conteúdo Personagens
+ - [x] Implementar Conteúdo Quem Somos
+ - [x] Implementar Conteúdo X-Men
+ - [x] Implementar css proprio
+ - [    ] Implementar Acessibilidade
  - [] Testar Acessibilidade
  - [] Validar páginas

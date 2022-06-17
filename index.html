@@ -58,9 +58,10 @@
     <!-- conteudo -->
     <main id="root" class="container-fluid p-4 maincorteste"></main>
     <!-- fim de conteudo -->
-    <div class="botaoRetornarTopo">
-        <button onclick="retornaTopo()">
-            <p>falta customizar</p>
+    <div class="botaoRetornarTopo d-flex align-content-center justify-content-center align-items-center">
+        <button class="retorna-topo" onclick="retornaTopo()">
+            <img src="./imagens/svgs/caret-up-fill.svg" alt="seta para cima, indicando o retorno ao topo da página.">
+            <p>Topo</p>
         </button>
     </div>
     <!-- footer -->
@@ -68,36 +69,35 @@
         <footer class="container pt-5 ">
             <div class="row sublinhado justify-content-evenly">
                 <div class="col-10 col-sm-12 col-md-12 col-lg-5 mb-4">
-                    <div class="row justify-content-evenly ">
-                        <h5 class="text-center mb-2 corfonte">Mapa do Site</h5>
+                    <div class="row justify-content-center gap-2">
+                        <h5 class="text-center mb-2">Mapa do Site</h5>
 
                         <section class="col-10 col-sm-10 col-md-4 ">
-
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted corfonte">Home</a>
-                                </li>
-                                <li class="nav-item mb-2"><a href="#historia" class="nav-link p-0 text-muted corfonte">Historia</a></li>
-                                <li class="nav-item mb-2"><a href="#personagens" class="nav-link p-0 text-muted corfonte">Personagem</a></li>
-                                <li class="nav-item mb-2"><a href="#x-men" class="nav-link p-0 text-muted corfonte">X-Men</a></li>
-                                <li class="nav-item mb-2"><a href="#antagonistas" class="nav-link p-0 text-muted corfonte">Antagonista</a></li>
-                                <li class="nav-item mb-2"><a href="#novos-mutantes" class="nav-link p-0 text-muted corfonte">Novos Mutantes</a></li>
-                                <li class="nav-item mb-2"><a href="#arcos" class="nav-link p-0 text-muted corfonte">Arcos</a></li>
-
-                            </ul>
+                            <nav>
+                                <ul class="nav flex-column align-content-end justify-content-end align-items-end">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                                    <li class="nav-item mb-2"><a href="#historia" class="nav-link p-0 text-muted">Historia</a></li>
+                                    <li class="nav-item mb-2"><a href="#personagens" class="nav-link p-0 text-muted">Personagem</a></li>
+                                    <li class="nav-item mb-2"><a href="#x-men" class="nav-link p-0 text-muted">X-Men</a></li>
+                                    <li class="nav-item mb-2"><a href="#antagonistas" class="nav-link p-0 text-muted">Antagonista</a></li>
+                                    <li class="nav-item mb-2"><a href="#novos-mutantes" class="nav-link p-0 text-muted">Novos Mutantes</a></li>
+                                </ul>
+                            </nav>
                         </section>
 
 
                         <section class="col-10 col-sm-10 col-md-4 ">
+                            <nav>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#arcos" class="nav-link p-0 text-muted">Arcos</a></li>
+                                    <li class="nav-item mb-2"><a href="#outras-midias" class="nav-link p-0 text-muted">Outras Midias</a></li>
+                                    <li class="nav-item mb-2"><a href="#critica-social" class="nav-link p-0 text-muted">Critica Social</a></li>
+                                    <li class="nav-item mb-2"><a href="#contato" class="nav-link p-0 text-muted">Contato</a></li>
+                                    <li class="nav-item mb-2"><a href="#quem-somos" class="nav-link p-0 text-muted">Quem Somos</a></li>
+                                    <li class="nav-item mb-2"><a href="#termos-de-uso" class="nav-link p-0 text-muted">Termos de Uso</a></li>
 
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#outras-midias" class="nav-link p-0 text-muted corfonte">Outras Midias</a></li>
-                                <li class="nav-item mb-2"><a href="#critica-social" class="nav-link p-0 text-muted corfonte">Critica Social</a></li>
-                                <li class="nav-item mb-2"><a href="#contato" class="nav-link p-0 text-muted corfonte">Contato</a></li>
-                                <li class="nav-item mb-2"><a href="#quem-somos" class="nav-link p-0 text-muted corfonte">Quem Somos</a></li>
-                                <li class="nav-item mb-2"><a href="#termos-de-uso" class="nav-link p-0 text-muted corfonte">Termos de Uso</a></li>
-
-
-                            </ul>
+                                </ul>
+                            </nav>
                         </section>
 
 
@@ -106,8 +106,8 @@
                 </div>
 
                 <form class="col-10 col-sm-8 col-md-8 col-lg-5 mb-4">
-                    <h5 class="text-center corfonte">Assine a nossa newsletter</h5>
-                    <p class="text-center corfonte">Resumo mensal de nossas novidades.</p>
+                    <h5 class="text-center">Assine a nossa newsletter</h5>
+                    <p class="text-center text-muted">Resumo mensal de nossas novidades.</p>
                     <div class="d-flex w-100 gap-2 ">
                         <label for="newsletter1" class="visually-hidden">Endereço de e-mail</label>
                         <input id="newsletter1" type="text" class="form-control" placeholder="Endereço de e-mail">
@@ -118,7 +118,7 @@
 
             <section class="row justify-content-center align-items-center py-3 border-top">
                 <div class="col-7 col-sm-7 col-md-8 col-lg-7 text-center">
-                    <p class="m-0 corfonte">© 2022 O Clube das Winx. Todos os direitos reservados.</p>
+                    <p class="m-0 text-muted">© 2022 O Clube das Winx. Todos os direitos reservados.</p>
                 </div>
 
             </section>

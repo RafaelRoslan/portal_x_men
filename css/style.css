@@ -21,7 +21,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.fonte {
     color: brown;
 }
 
@@ -44,6 +45,7 @@ a {
 
 .cardlargura {
     max-width: 300px;
+    box-shadow: 2px 0px 5px black;
 }
 
 .limpar {
@@ -60,9 +62,39 @@ a {
 
 .botaoRetornarTopo{
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #cba303;
+    display: none !important;
 }
+
+.retorna-topo{
+    border: none; 
+    width: 75px;
+    background-color: #00000000;   
+}
+.retorna-topo img{
+    width: 35px;
+    height: 35px;
+}
+.retorna-topo p{ 
+    margin: 0;
+    font-weight: bold;
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.leia-mais{
+    background-color: rgba(165, 42, 42, 0.95)
+    ;
+}
+
 /* CCS Anderson */
 
 
