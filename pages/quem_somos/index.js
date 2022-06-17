@@ -12,25 +12,27 @@ export default ()=>{
         <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 col-xxl-8">
             <div class="row d-grid gap-4 text-justify d-flex align-content-center justify-content-center">
             <article class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10 mb-3">
-                <h1 class="text-center">Assas,Discórdia e Despedida</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quo porro illum quia dolores
-                quis
-                dolor, modi non et eveniet iure magnam recusandae facilis corporis vitae sint expedita! Quod, quidem!</p>
-                <p>Pariatur aspernatur perferendis expedita assumenda cupiditate sed, excepturi autem distinctio rem aliquid
-                eveniet esse nulla, atque harum laudantium magni aut voluptas eos eligendi impedit obcaecati eaque
-                consequuntur quidem? Voluptatem, velit.</p>
-                <p>Aut minus aspernatur esse dignissimos nisi placeat odit reprehenderit, eum inventore laboriosam laborum
-                cupiditate obcaecati autem quos, corporis explicabo assumenda facere, voluptates laudantium aliquid dolor
-                voluptatem eveniet officiis. Sint, vitae!</p>
+                <h1 class="text-center mb-3">Fadas,Discórdia e Despedida</h1>
+                <p>Nem todo grupo se mantem, alguns se dissipam, outros se perdem, há aqueles divergentes que são aniquilados pelas desventuras da jornada e a casos como o nosso em que o círculo deve ser quebrado. Como Gesóneis, alcançamos nosso objetivo, triunfamos no momento que nos foi dito que não conseguiríamos. Atualmente no terceiro semestre do curso de Sistemas para Internet da Faculdade de Tecnologia de São Roque, a FATEC-SR, demos início ao terceiro projeto, agora com o tema: QUADRINHOS.</p>
+                <p>Ainda no início do semestre, os Gesóneis se separaram, cada um seguindo seu semestre e nós que seguimos pelo mesmo semestre, nos unimos a outros para nosso projeto, agora sob o título de clube das Winx. Porém aquilo que deveria seguir de forma cooperativa, se mostrou como um obstáculo. A discórdia e a falta de ânimo haviam corroído nosso grupo.</p>
+                <p>No momento de maior tensão, levamos a questão a nosso preceptor, que de forma calma e imediata, partiu o grupo em dois, nós e eles. E nossos infortúnios não acabaram ali, nossa dupla, sofreu por efeito de saúde, o que atrapalhou o andamento do projeto. Aparentemente a sombra de ser sempre o último grupo não se desvencilhará de nós e como nos foi dito, somos “dois ferrados na chuva”.</p>
+                <p>Entretanto, a persistência ainda acompanha o último grupo, recuperamos nossa saúde, criamos amizades com outros grupos, melhoramos a cada dia, e até ao presente seguimos tentando mostrar que podemos terminar o projeto. E esse trecho, essa pequena nota, deixamos a nosso professor, que mesmo que ainda possamos nos deparar pela faculdade, é possível que não tenhamos mais suas aulas, portanto se está lendo isso, obrigado.</p>
+
+                <div class="text-end">
+                    <p><b>Dos Triunfantes Gesonéis,</b></p>
+                    <p><b>Os ferrados na chuva,</b></p>
+                    <p><b>Clube das Winx.</b></p>
+                </div>
+
             </article>
 
             <aside class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
                 <div class="row d-flex justify-content-center align-content-center gap-4 gap-md-5">
-                <div class="card p-2 col-12 col-sm-10 col-md-5 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
+                <div class="card p-2 col-12 col-sm-10 col-md-5 d-flex justify-content-center align-content-center">
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
                     <div class="col-5">
                         <img src="./imagens/anderson.png" class="img-fluid"
-                        alt="Integrante do grupo de desenvolvedores. Nome: Anderson Silva. Titulos:Porpeta, Gesonel do Caos, Primeira Winx, Fragmentador de Grupo, Coração Fraco">
+                        alt="Integrante do grupo de desenvolvedores. Nome: Anderson Silva. Titulos:Porpeta, Gesonel do Caos, Primeira Winx, Fragmentador de Grupo, Coração Fraco, O ela não me ama">
                     </div>
                     <div class="col-7 p-0">
                         <div class="card-body d-flex row justify-content-center align-content-center">
@@ -40,7 +42,7 @@ export default ()=>{
                     </div>
                     </section>
                 </div>
-                <div class="card p-2 col-12 col-sm-10 col-md-5 bg-opacity-50 bg-black d-flex justify-content-center align-content-center">
+                <div class="card p-2 col-12 col-sm-10 col-md-5 d-flex justify-content-center align-content-center">
                     <section class="row d-flex justify-content-center align-content-center align-items-center">
                     <div class="col-5">
                         <img src="./imagens/rafael.png" class="img-fluid"
