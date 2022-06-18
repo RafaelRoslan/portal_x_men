@@ -50,7 +50,7 @@ export default () => {
             </div>
             <aside class="col-10 col-sm-10 col-md-4 col-lg-4 col-xl-4col-xxl-4 order-md-2">
               <div>
-                <img src="./imagens/Chris_Claremon.jpg" class="img-fluid" alt alt="">
+                <img src="./imagens/Chris_Claremon.jpg" class="img-fluid"  alt="Foto de Claremont que assumiu os roteiros da série em 1974">
               </div>
             </aside>
 

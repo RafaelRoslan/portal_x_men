@@ -40,13 +40,13 @@ export default () => {
 
             <aside class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 col-xxl-5 order-0 mt-md-3 order-md-2">
                 <div class="d-flex align-content-center justify-content-center justify-content-md-start">
-                <img src="./imagens/brotherhood.png" class="img-fluid" alt="">
+                <img src="./imagens/brotherhood.png" class="img-fluid" alt=" Imagem dos antagonitas da direita para esquerda: Fanático, Avalanche, Magneto, Fera e Mistica">
                 </div>
             </aside>
 
             <aside class="col-10 col-sm-10 col-md-5 col-lg-5 col-xl-5 col-xxl-5 order-2 mt-md-3 order-md-1">
                 <div class="d-flex align-content-center justify-content-center justify-content-md-end">
-                <img src="./imagens/x_men.png" class="img-fluid" alt="">
+                <img src="./imagens/x_men.png" class="img-fluid" alt="Imagem dos X-men, da esquerda para direita: Ciclope, Gambit, Tempestade, Wolverine e Jean Grey">
                 </div>
             </aside>
             </article>
