@@ -1,5 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
+/* ROOT */
+:root{
+    /* normal/lightmode */
+    --cor0 : #ffffff;
+    --cor1 : #a52a2a;
+    --cor2 : #151515;
+    --cor3 : #000000;
+    --cor4 : #cba303;
+    --cor5 : #ffffff;
+    --icon : invert(100%) sepia(0%) saturate(7484%) hue-rotate(215deg) brightness(106%) contrast(109%);
+
+    --lineSpace : 1.5;
+    --letterSpace: 0.3;
+    --wordSpace: 2px;
+}
+
+.dark:root{
+    --cor0 : #444343;
+    --cor1 : #fdcb00;
+    --cor3 : #ffffff;
+    --cor5 : #000000;
+}
+
+.line-space:root{
+    --lineSpace : 1.8;
+    --letterSpace: 0.5;
+    --wordSpace: 5px;
+}
+
+
+
+body{
+    background-color: var(--cor0);
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.iconSwitch, .iconCanhoto{filter: var(--icon);}
+/* .iconCanhoto{transform: scaleX(-1);} */
+.inverter{transform: scaleX(-1);}
+
+.navbar-toggler-icon, .iconSpace {
+    filter: invert(100%) sepia(0%) saturate(7484%) hue-rotate(215deg) brightness(106%) contrast(109%);
+}
+
+.form-check-input:checked{
+    background-color: #929292;
+    border-color: #00000000;
+}
+
 /* FONTE */
 
 .fontemukta {
@@ -12,6 +64,14 @@
 
 p {
     font-family: 'Mukta', sans-serif;
+    color: var(--cor3);
+    line-height: var(--lineSpace);
+    letter-spacing: var(--letterSpace);
+    word-spacing: var(--wordSpace);
+}
+
+form label{
+    color: var(--cor3);
 }
 
 
@@ -21,36 +81,39 @@ h1,
 h2,
 h3,
 h4,
-h5,
-.fonte {
-    color: brown;
+h5{
+    color: var(--cor1);
 }
 
-li {
-    list-style-type: none;
+.card h5, .active h2{
+    color: #a52a2a;
 }
 
-li,
-a {
-    color: white !important;
-}
+.card-text, .leia-mais p, .retorna-topo p{
+    color: #000000;
+} 
 
-.botaocor {
-    background-color: #cba303;
-}
+li {list-style-type: none;}
 
-.cornavfooter {
-    background-color: #151515 !important;
-}
+a, .text-branco {color: #ffffff !important;}
+
+.botaocor,.botaoRetornarTopo {background-color: var(--cor4);}
+
+.cornavfooter {background-color: var(--cor2) !important;}
 
 .cardlargura {
     max-width: 300px;
-    box-shadow: 2px 0px 5px black;
+}
+.card{
+    box-shadow: 2px 0px 5px #000000;
 }
 
 .limpar {
     text-decoration: none !important;
-    color: black;
+    color: var(--cor3) !important;
+}
+.limpar p, .btncor{
+    color: var(--cor5) !important;
 }
 
 .cardajuste {
@@ -67,7 +130,6 @@ a {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    background-color: #cba303;
     display: none !important;
 }
 
@@ -90,30 +152,21 @@ a {
     text-justify: inter-word;
 }
 
-.leia-mais{
-    background-color: rgba(165, 42, 42, 0.95)
-    ;
+.leia-mais, .btncor{
+    background-color: var(--cor1);
 }
 
-/* CCS Anderson */
-
-
-/* .maincorteste {
-    background-color: #444343;
+.list-personagem li a:hover{
+    background-color: var(--cor1);
 }
 
-a:hover {
-    background-color: #FDCB00 !important;
+.list-personagem li a:hover h5{
+    color: var(--cor0);
 }
 
-.testepersonagem {
-    background-color: #b88b21 !important;
-}
-
-.corfonte {
-    color: white !important;
-}
-
-p {
-    color: white;
-} */
+.menu-tab li a:hover{
+    background-color: var(--cor1);
+} 
+.menu-tab li a:hover h4{
+    color: var(--cor0);
+} 

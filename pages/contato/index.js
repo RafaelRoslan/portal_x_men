@@ -12,19 +12,18 @@ export default () => {
     <article class="row rounded-3">
 
 
-        <div class="col-10 col-sm-10 col-md-5 col-lg-5 corcard m-4 p-4 ">
-            <h3><b>Contato X-Men</b></h3>
-            <p>Texto em construção</p>
-            <p>Texto em construção</p>
-            <p>Texto em construção</p>
-            <p>Texto em construção</p>
-            <p>Texto em construção</p>
-            <p>Texto em construção</p>
-            <p>Texto em construção</p>
-            <p>Texto em construção</p>
+        <div class="col-10 col-sm-10 col-md-5 col-lg-5 corcard m-4 p-4 d-flex  justify-content-center">
+            <div>
+                <h3>Marvel X-men</h3>
+                <h5>site official</h5>
+                <a href="https://www.marvel.com/teams-and-groups/x-men"><p>Marvel.com</p></a>
+                <h5>Endereço da Sede</h5>
+                <p>1290 Avenue of the Americas</p>
+                <p>New York, NY 10104</p>
+            </div>
         </div>
 
-        <form class="col-10 col-sm-10 col-md-5 col-lg-6 corcard m-4 p-4 corcard">
+        <form class="col-10 col-sm-10 col-md-5 col-lg-5 m-4 p-4 corcard">
 
             <h3><b>Fale conosco</b></h3>
             <div class="mb-3">
@@ -42,7 +41,7 @@ export default () => {
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary mb-2 text-end">Enviar</button>
+            <button type="submit" class="btn btncor mb-2 text-end">Enviar</button>
 
         </form>
 

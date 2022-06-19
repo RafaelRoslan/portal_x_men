@@ -10,12 +10,12 @@ export default () => {
     const template = `
       <div class="row mt-3 d-flex align-content-center justify-content-center">
         <nav class="col-10 col-sm-10 col-md-10 col-lg-7 p-0">
-          <ul class="nav nav-tabs justify-content-center gap-5">
+          <ul class="nav nav-tabs justify-content-center gap-5  menu-tab">
           <li class="nav-item">
-          <a class="nav-link" href="#historia"><h5>História</h5></a>
+          <a class="nav-link" href="#historia"><h4>História</h4></a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="#origem"><h5>Origem</h5></a>
+          <a class="nav-link" href="#origem"><h4>Origem</h4></a>
       </li>
           </ul>
         </nav>
