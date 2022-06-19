@@ -1,11 +1,11 @@
 //conteúdo Outras Mídias
 
 //Criação da função por meio de arrow-function - Arrow function é uma função resumida.
-export default ()=>{
+export default () => {
 
     //criação da div - a constante container vai amarzenar o elemento criado, nesse caso a a tag <div>. 
     const container = document.createElement('div');
-     
+
     //criação do template - é aqui onde colocamos o todo conteúdo que será exibido na pagina.
     const template = `
       <div class="row mt-3 d-flex align-content-center justify-content-center">
@@ -35,7 +35,7 @@ export default ()=>{
                   frequentando o colegial, além do Instituto Xavier. A série terminou em 2008 após cinco temporadas.</p>
               </div>
               <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 col-xxl-5 order-lg-1">
-                <img src="./imagens/x_men_animacao.jpg" alt="" class="img-fluid">
+                <img src="./imagens/x_men_animacao.jpg" alt="Imagem da versão animada dos X-men" class="img-fluid">
               </div>
             </section>
             <section class=" row d-flex justify-content-center align-content-center align-items-center">
@@ -51,7 +51,7 @@ export default ()=>{
                   Wolverine, Homem de Gelo e Noturno.</p>
               </div>
               <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5 col-xxl-5 order-lg-0">
-                <img src="./imagens/x_men_jogo.jpg" alt="" class="img-fluid">
+                <img src="./imagens/x_men_jogo.jpg" alt="Imagem da tela de seleção de personagem do jogo do X-Men" class="img-fluid">
               </div>
             </section>
             <section class="row d-flex justify-content-center align-content-center align-items-center">
@@ -64,7 +64,7 @@ export default ()=>{
                   humano e espetáculo de alto vôo fez X-Men Extremamente popular, gerando uma franquia que até agora
                   abrangeu 13 longas-metragens diversos em tom, elenco e, claro, período de tempo.</p>
                 <div>
-                  <img src="./imagens/x_men_filme.jpg" alt="" class="img-fluid">
+                  <img src="./imagens/x_men_filme.jpg" alt="Imagem dos personagens do filme X-men" class="img-fluid">
                 </div>
               </div>
             </section>
