@@ -34,6 +34,6 @@
  - [x] Implementar Conteúdo Quem Somos
  - [x] Implementar Conteúdo X-Men
  - [x] Implementar css proprio
- - [    ] Implementar Acessibilidade
- - [] Testar Acessibilidade
- - [] Validar páginas
+ - [x] Implementar Acessibilidade
+ - [x] Testar Acessibilidade
+ - [x] Validar páginas
