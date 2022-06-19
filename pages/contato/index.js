@@ -43,33 +43,6 @@ export default () => {
             </div>
 
             <button type="submit" class="btn btncor mb-2 text-end">Enviar</button>
-
-
-
-        
-
-        <form class="col-10 col-sm-10 col-md-10 col-lg-6 corcard corcard">
-            <fieldset>
-                <legend>Fale conosco</legend>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput" class="form-label ">Nome completo</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput" placeholder="Digite seu nome">
-                </div>
-
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua mensagem"></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary mb-2 text-end">Enviar</button>
-            </fieldset>
-        </form>
-
     </article>
 
 </div>
