@@ -30,75 +30,75 @@ const init = () => {
             case " ":
                 document.title = "X-Verse:Portal X-Men | Home";
                 main.appendChild(home());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
             case "#historia":
                 document.title = "X-Verse:Portal X-Men | Historia";
                 main.appendChild(historia());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#origem":
                 document.title = "X-Verse:Portal X-Men | Origem";
                 main.appendChild(origem());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#personagens":
                 document.title = "X-Verse:Portal X-Men | Personagens";
                 main.appendChild(personagens());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#x-men":
                 main.appendChild(xMen());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#antagonistas":
                 main.appendChild(antagonistas());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#novos-mutantes":
                 main.appendChild(novosMutantes());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#arcos":
                 main.appendChild(arcos());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#outras-midias":
                 main.appendChild(outrasMidias());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#critica-social":
                 main.appendChild(criticasSociais());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#contato":
                 main.appendChild(contato());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#quem-somos":
                 main.appendChild(quemSomos());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             case "#termos-de-uso":
                 main.appendChild(termosDeUso());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
 
             default:
                 document.title = "home";
                 main.appendChild(home());
-                document.getElementById("t").focus();
+                document.getElementById("aLogo").focus();
                 break;
         }
     });
@@ -108,6 +108,6 @@ const init = () => {
 window.addEventListener("load", () => {
     main.appendChild(home());
     document.title = "X-Verse:Portal X-Men | Home";
-    document.getElementById("t").focus();
+    document.getElementById("aLogo").focus();
     init();
 });

@@ -13,7 +13,7 @@ export default () => {
                 <h1 class="text-center">Personagens</h1>
                 <nav class="nav justify-content-center p-0">
 
-                    <ul class="card-group justify-content-center p-0">
+                    <ul class="card-group justify-content-center p-0 list-personagem">
                         <li class="nav-item p-3">
                             <a class="nav-link card testepersonagem" href="#x-men">
                                 <h5 class="card-title text-center">X-Men</h5>

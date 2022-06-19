@@ -31,7 +31,7 @@ export default () => {
             <article class="row justify-content-evenly cardajuste">
                 <!-- <article class="container my-5"> -->
                 <h1 class="text-center pt-5">Últimas Notícias</h1>
-                <div class="row justify-content-center col-10 col-sm-8 col-md-8 col-lg-10 gap-3">
+                <div class="row justify-content-center col-10 col-sm-10 col-md-12 col-lg-10 gap-3">
                     <section class="card cardlargura p-2">
                         <a href="https://olhardigital.com.br/2022/04/07/cinema-e-streaming/hq-da-marvel-sugere-que-jesus-poderia-ter-sido-um-mutante-dos-x-men/" class="limpar">
                             <img src="imagens/Noticia_1.jpg" class="img-fluid rounded-1" width="300" height="150" alt="Imagem da HQ Immortal X-Men">
