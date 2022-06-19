@@ -17,14 +17,16 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light cornavfooter">
         <div class="container-fluid">
-            <a id="t" class="navbar-brand" href="#">
+            <div id="aLogo" class="d-flex justify-content-between flex-row-reverse">
+            <button id="btnLogo"  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a  class="navbar-brand" href="#">
                 <img src="./imagens/logox-men.png" alt=" Logo do X-men" width="30" height="30" class="d-inline-block align-text-top"> X-Verse
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+        </div>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
@@ -50,6 +52,20 @@
                         <a class="nav-link" href="#quem-somos">Quem Somos</a>
                     </li>
                 </ul>
+                <div class=" form-check form-switch m-0 me-3 d-flex gap-5 p-0 py-2 d-lg-none">
+                    <img src="./imagens/svgs/hand-index-thumb-fill.svg" alt="icone modo destro/canhoto" class="iconCanhoto">
+                    <input type="checkbox" class="form-check-input" role="switch" id="canhotoSwitch">
+                </div>
+                <div class=" form-check form-switch m-0 me-3 d-flex gap-5 p-0 py-2">
+                    <img src="./imagens/svgs/distribute-vertical.svg" alt="icone modo de espacamento de linhas" class="iconSpace">
+                    <input type="checkbox" class="form-check-input" role="switch" id="spaceSwitch">
+                </div>
+                <div class=" form-check form-switch m-0 me-3 d-flex gap-5 p-0 py-2">
+                    <img src="./imagens/svgs/circle-half.svg" alt="icone modo escuro" class="iconSwitch">
+                    <input type="checkbox" class="form-check-input" role="switch" id="dmSwitch">
+                </div>
+                
+
             </div>
         </div>
     </nav>
@@ -59,7 +75,7 @@
     <main id="root" class="container-fluid p-4 maincorteste"></main>
     <!-- fim de conteudo -->
     <div class="botaoRetornarTopo d-flex align-content-center justify-content-center align-items-center">
-        <button class="retorna-topo" onclick="retornaTopo()">
+        <button class="retorna-topo">
             <img src="./imagens/svgs/caret-up-fill.svg" alt="seta para cima, indicando o retorno ao topo da página.">
             <p>Topo</p>
         </button>
@@ -68,33 +84,33 @@
     <div class="cornavfooter">
         <footer class="container pt-5 ">
             <div class="row sublinhado justify-content-evenly">
-                <div class="col-10 col-sm-12 col-md-12 col-lg-5 mb-4">
+                <div class="col-10 col-sm-10 col-md-5 col-lg-5 mb-4">
                     <div class="row justify-content-center gap-2">
-                        <h5 class="text-center mb-2">Mapa do Site</h5>
+                        <h4 class="text-center mb-2">Mapa do Site</h4>
 
-                        <section class="col-10 col-sm-10 col-md-4 ">
+                        <section class="col-5 col-sm-5 col-md-5 ">
                             <nav>
                                 <ul class="nav flex-column align-content-end justify-content-end align-items-end">
-                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                                    <li class="nav-item mb-2"><a href="#historia" class="nav-link p-0 text-muted">Historia</a></li>
-                                    <li class="nav-item mb-2"><a href="#personagens" class="nav-link p-0 text-muted">Personagem</a></li>
-                                    <li class="nav-item mb-2"><a href="#x-men" class="nav-link p-0 text-muted">X-Men</a></li>
-                                    <li class="nav-item mb-2"><a href="#antagonistas" class="nav-link p-0 text-muted">Antagonista</a></li>
-                                    <li class="nav-item mb-2"><a href="#novos-mutantes" class="nav-link p-0 text-muted">Novos Mutantes</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                                    <li class="nav-item mb-2"><a href="#historia" class="nav-link p-0">Historia</a></li>
+                                    <li class="nav-item mb-2"><a href="#personagens" class="nav-link p-0">Personagem</a></li>
+                                    <li class="nav-item mb-2"><a href="#x-men" class="nav-link p-0">X-Men</a></li>
+                                    <li class="nav-item mb-2"><a href="#antagonistas" class="nav-link p-0">Antagonista</a></li>
+                                    <li class="nav-item mb-2"><a href="#novos-mutantes" class="nav-link p-0">Novos Mutantes</a></li>
                                 </ul>
                             </nav>
                         </section>
 
 
-                        <section class="col-10 col-sm-10 col-md-4 ">
+                        <section class="col-5 col-sm-5 col-md-5 ">
                             <nav>
                                 <ul class="nav flex-column">
-                                    <li class="nav-item mb-2"><a href="#arcos" class="nav-link p-0 text-muted">Arcos</a></li>
-                                    <li class="nav-item mb-2"><a href="#outras-midias" class="nav-link p-0 text-muted">Outras Midias</a></li>
-                                    <li class="nav-item mb-2"><a href="#critica-social" class="nav-link p-0 text-muted">Critica Social</a></li>
-                                    <li class="nav-item mb-2"><a href="#contato" class="nav-link p-0 text-muted">Contato</a></li>
-                                    <li class="nav-item mb-2"><a href="#quem-somos" class="nav-link p-0 text-muted">Quem Somos</a></li>
-                                    <li class="nav-item mb-2"><a href="#termos-de-uso" class="nav-link p-0 text-muted">Termos de Uso</a></li>
+                                    <li class="nav-item mb-2"><a href="#arcos" class="nav-link p-0">Arcos</a></li>
+                                    <li class="nav-item mb-2"><a href="#outras-midias" class="nav-link p-0">Outras Midias</a></li>
+                                    <li class="nav-item mb-2"><a href="#critica-social" class="nav-link p-0">Critica Social</a></li>
+                                    <li class="nav-item mb-2"><a href="#contato" class="nav-link p-0">Contato</a></li>
+                                    <li class="nav-item mb-2"><a href="#quem-somos" class="nav-link p-0">Quem Somos</a></li>
+                                    <li class="nav-item mb-2"><a href="#termos-de-uso" class="nav-link p-0">Termos de Uso</a></li>
 
                                 </ul>
                             </nav>
@@ -105,9 +121,9 @@
                     </div>
                 </div>
 
-                <form class="col-10 col-sm-8 col-md-8 col-lg-5 mb-4">
-                    <h5 class="text-center">Assine a nossa newsletter</h5>
-                    <p class="text-center text-muted">Resumo mensal de nossas novidades.</p>
+                <form class="col-10 col-sm-10 col-md-5 col-lg-5 mb-4">
+                    <h4 class="text-center">Assine a nossa newsletter</h4>
+                    <p class="text-center text-branco">Resumo mensal de nossas novidades.</p>
                     <div class="d-flex w-100 gap-2 ">
                         <label for="newsletter1" class="visually-hidden">Endereço de e-mail</label>
                         <input id="newsletter1" type="text" class="form-control" placeholder="Endereço de e-mail">
@@ -127,7 +143,7 @@
         <!-- fim de footer -->
         <script src="./js/bootstrap.bundle.min.js"></script>
         <script type="module" src="./js/main_script.js"></script>
-        <script src="./js/botaoRetornarTopo.js"></script>
+        <script src="./js/funcoesUteis.js"></script>
 </body>
 
 </html>
